@@ -9,7 +9,7 @@ import "fmt"
 // ShareWith returns the following string where X is the argument: "One for X, one for me."
 func ShareWith(name string) string {
 	if len(name) == 0 {
-	  name = "you"
+		name = "you"
 	}
 	return fmt.Sprintf("One for %s, one for me.", name)
 }
